@@ -2,11 +2,13 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-// import leaf from "../../Assets/Projects/leaf.png";
-// import emotion from "../../Assets/Projects/emotion.png";
+import Mekkawy from "../../Assets/Projects/Mekkawy Furniture.png";
+import Calendar from "../../Assets/Projects/Calendar App.png";
 import editor from "../../Assets/Projects/tailwind-freshcart-template.jpg";
 import chatify from "../../Assets/Projects/Eduxa.png";
-// import suicide from "../../Assets/Projects/suicide.png";
+import Weather from "../../Assets/Projects/Weather App img.png";
+import Calculator from "../../Assets/Projects/Calculator.png";
+import ToDo from "../../Assets/Projects/To-Do List.png";
 import bitsOfCode from "../../Assets/Projects/eduxa dash board.png";
 
 function Projects() {
@@ -48,7 +50,81 @@ function Projects() {
               title="freshcart"
               description="FreshCart is a beautifully designed, expertly crafted components UI kit for building a high-quality website and web apps using web technologies — HTML, TailwindCSS, and JavaScript — with integrations of the world’s most popular Bootstrap Javascript Plugins."
               // ghLink="https://github.com/Walid-Mekkawy/freshcart-E-commerce-"
-              demoLink="https://github.com/Walid-Mekkawy/freshcart-E-commerce-"              
+              demoLink="https://fresh-cart-two-beige.vercel.app/"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={Mekkawy}
+              isBlog={false}
+              title="Mekkawy Furniture"
+              description="E-Commerce
+Website
+(In
+Progress),
+Next.js,
+React.js,
+Tailwind
+CSS,
+TypeScript
+Personal project for selling custom-made furniture and upholstery products online. Developing responsive product listings, shopping cart, and multi-language support."
+              // ghLink="https://github.com/Walid-Mekkawy/freshcart-E-commerce-"
+              demoLink="https://mekkawy-furniture.vercel.app/en"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={Weather}
+              isBlog={false}
+              title="Weather App"
+              description="Next.js,
+React.js,
+Tailwind
+CSS,
+RESTful
+APIs
+Created a weather application with city search, favorites management, and real-time weather updates via OpenWeather API. Implemented persistent storage for user-selected favorite locations."
+              // ghLink="https://github.com/Walid-Mekkawy/freshcart-E-commerce-"
+              demoLink="https://weather-app-tau-nine-33.vercel.app/"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={Calendar}
+              isBlog={false}
+              title="Calendar App"
+              description="Next.js,
+React.js,
+Tailwind
+CSS
+Developing a calendar tool for organizing daily and weekly tasks. Working on task creation, categorization, and responsive UI for mobile and
+desktop."
+              // ghLink="https://github.com/Walid-Mekkawy/freshcart-E-commerce-"
+              demoLink="https://calendar-psi-lake.vercel.app/"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={Calculator}
+              isBlog={false}
+              title="Calculator"
+              description="A simple Calculator App built with HTML, CSS, and JavaScript. It also has a Dark Mode.
+
+"
+              // ghLink="https://github.com/Walid-Mekkawy/freshcart-E-commerce-"
+              demoLink="https://calculator-cyan-omega.vercel.app/"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={ToDo}
+              isBlog={false}
+              title="To-Do-List"
+              description="This is a simple To-Do List application that helps users manage their daily tasks efficiently. Users can add, delete, and mark tasks as completed.
+
+"
+              // ghLink="https://github.com/Walid-Mekkawy/freshcart-E-commerce-"
+              demoLink="https://to-do-list-tau-six-85.vercel.app/"
             />
           </Col>
 
